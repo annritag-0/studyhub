@@ -329,8 +329,8 @@
    Row Level Security policies (set up by that SQL script) that actually
    keep data safe, not secrecy of this key.
    ========================================================================= */
-const SUPABASE_URL = 'PASTE_YOUR_SUPABASE_PROJECT_URL_HERE';
-const SUPABASE_ANON_KEY = 'PASTE_YOUR_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL = 'https://adjhsunopcwiezoazdvl.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_iqzs5bFqO2SVeA3ky31G2g_ODh64Jwx';
 const supabaseReady = !SUPABASE_URL.startsWith('PASTE_') && !SUPABASE_ANON_KEY.startsWith('PASTE_');
 const supabaseClient = supabaseReady ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
